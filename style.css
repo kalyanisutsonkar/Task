@@ -240,7 +240,9 @@ button:hover{
         align-items: center;
         display: flex;
 }
-
+img{
+    height: 230px;
+}
 .gallerycontent{
     text-align: left;
     line-height: 30px;
