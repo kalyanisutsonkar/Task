@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    background-image: url('img/right1.png'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+    width: 100%;
+    color: white; 
+}
+
+
+.foot{
+    background-color: rgb(3, 3, 36);
+}
+.content{
+    height: 100%;
+}
+
+.header{
+    text-align: center;
+    background-color: darkblue;
+    color: black;
+ 
+    
+}
+.next4 img{
+        font-family: 'Pacifico', "cursive";
+        font-size: x-large;
+        height: 40px;
+        filter: invert();
+        mix-blend-mode: screen;
+        background-color: orange;
+    
+}
+
+.navbar{
+    display: flex;
+    color: black;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+
+.next img{
+    font-family: 'Pacifico', "cursive";
+    height: 40px;
+    font-weight: lighter;
+    filter: invert();
+    mix-blend-mode: screen;
+}
+
+.next2 img{
+    font-family: 'Pacifico', "cursive";
+    font-size: x-large;
+    height: 22px;
+    font-weight: lighter;
+    filter: invert();
+    mix-blend-mode: screen;
+}
+
+.next3 img{
+    font-family: 'Pacifico', "cursive";
+    font-size: x-large;
+    height: 22px;
+    font-weight: lighter;
+    filter: invert();
+    mix-blend-mode: screen;
+}
+p{
+    color: black;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    letter-spacing: -1px;
+}
+
+.nav{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+    color: black;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.next{
+    font-family: 'math';
+    
+}
+.spring{
+    text-align: center;
+    color: black;
+    padding: 15px;
+    font-family: "Exo", sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+}
+.icon{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.cart{
+    background-color: rgb(17, 64, 17);
+    color: white;
+    margin-top: 20px;
+    padding: 10px 70px;
+}
+.SYMBOLS{
+    display: flex;
+    gap: 20px;
+    color: black;
+}
+
+.midtext{
+       padding: 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.button{
+
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding: 12px 45px;
+    display: flex;
+    justify-content: center;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+
+button{
+    background-color: black;
+      padding: 10px;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+
+h5{
+    background-color: orange;
+    color: white;
+    font-size: 18px;
+    padding: 5px;
+    text-align: center;
+}
+
+.foot{
+    padding: 20px;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.SYMBOLS:hover{
+  cursor: pointer;
+}
+.star{
+    height: 15px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    align-content: center;
+   margin-bottom: 5px;
+   font-family: sans-serif;
+   gap: 7px;
+    
+}
+
+.icon {
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.SYMBOLS {
+    display: flex;
+    gap: 20px;
+    color: black;
+    position: relative;
+}
+
+.search-input {
+    display: none;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 200px;
+}
+
+button:hover{
+    cursor: pointer;
+  }
+
+.gallery{
+    display: flex;
+    width: 100%;
+   justify-content: space-around;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+   gap: 20px 0;
+   padding-bottom: 30px;
+}
+
+.arrow{
+        color: black;
+        text-align: center;
+        align-items: center;
+        display: flex;
+}
+
+.gallerycontent{
+    text-align: left;
+    line-height: 30px;
+    justify-content: space-around;
+    margin: 0 20px;
+    
+}
+
+h6{
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h4{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+    text-align: left;
+}
+
+span{
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+
+.midtext{
+    padding: 40px;
+}
+
+/* @media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+  h3{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    display: flex;
+  }
+    .icon {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .SYMBOLS {
+        /* display: ; */
+    /* }
+
+    .navbar.active .SYMBOLS {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar .icon i {
+        cursor: pointer;
+    }
+} */ 
+.mobile-navbar{
+    display: none;
+}
+@media (max-width: 460px) {
+.spring{
+    line-height: 1;
+}
+}
+@media (max-width: 425px) {
+    .navbar {
+       display: none;
+    }
+    .mobile-navbar{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .mobile-navbar .menu{
+        display: flex;
+        margin-left: 20px;
+        color: black;
+    }
+    .icon, .SYMBOLS, .text {
+        flex: 1 1 100%; 
+        text-align: center; 
+        margin-top: 10px; 
+        color: black;
+    }
+    
+    .arrow{
+        display: none;
+    }
+    .SYMBOLS {
+        justify-content: center; 
+    }
+
+    .search-input {
+        top: 50px; 
+        width: calc(100% - 20px); 
+    }
+    .foot{
+        flex-wrap: wrap;
+    }
+}
+
+@font-face {
+    font-family: 'New York';
+    src: url('path/to/your/NewYork-Regular.woff2') format('woff2'),
+         url('path/to/your/NewYork-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
